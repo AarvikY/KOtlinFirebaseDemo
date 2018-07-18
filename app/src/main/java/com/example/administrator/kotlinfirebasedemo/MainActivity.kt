@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
         if (mRemoteConfig!!.getInfo().configSettings.isDeveloperModeEnabled) {
             cacheExpiration = 0
         }
-//i am changing the data
+//i am changing the data new datatattat
         //this is check to test the githun
 
         mRemoteConfig!!.fetch(cacheExpiration)
