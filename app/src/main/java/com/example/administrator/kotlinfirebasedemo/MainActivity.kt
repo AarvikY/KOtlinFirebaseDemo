@@ -82,6 +82,8 @@ class MainActivity : AppCompatActivity() {
             cacheExpiration = 0
         }
 
+        //this is check to test the githun
+
         mRemoteConfig!!.fetch(cacheExpiration)
                 .addOnSuccessListener {
                     mRemoteConfig!!.activateFetched()
